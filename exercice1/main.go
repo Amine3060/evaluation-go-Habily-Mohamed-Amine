@@ -65,11 +65,11 @@ func main() {
 
 		if montant < prix {
 			println("Montant insuffisant !")
-			fmt.Printf("Il manque %d €.\n", prix-montant)
+			println("Il manque %d €.", prix-montant)
 			continue
 		}
 
 		println("Merci !")
-		fmt.Printf("Votre monnaie : %d €\n", montant-prix)
+		fmt.println("Votre monnaie : %d €", montant-prix)
 	}
 }
