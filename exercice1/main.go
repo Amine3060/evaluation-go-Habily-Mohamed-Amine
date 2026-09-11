@@ -69,7 +69,7 @@ func main() {
 			continue
 		}
 
-		println("Merci !")
-		fmt.println("Votre monnaie : %d €", montant-prix)
+		fmt.Println("Merci !")
+		fmt.Println("Votre monnaie : ", montant-prix, " €")
 	}
 }
